@@ -8,7 +8,7 @@ export default function App() {
   // const [email, setEmail] = useState("");
 
 
-  const [inputs, setInputs] = useInput({name:"",age:"",email:""});
+  const [inputs, setInputs] = useInput("inputs", INITIAL_STATE); //Localstorage ta saklanacak keywordu ve Localstorage bos olmasi durumuna karsilik default state'i gondeririz
 
  
   return (
