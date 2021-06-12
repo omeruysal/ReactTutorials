@@ -1,3 +1,3 @@
-# React.Js projeleri
+# React.Js
 
 Details on the projects:
