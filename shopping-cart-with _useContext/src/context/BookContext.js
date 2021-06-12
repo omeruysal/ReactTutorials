@@ -35,7 +35,7 @@ export default function BookContextProvider({ children }) {
             } : cardItem)
         })
     }
-    const removeFromCard = id => {
+    const removeFromCard = id => {n
         setState({
             ...state,
             card: state.card.filter(cardItem=>cardItem.id !== id)//Gelen id disindakileri aktaririz
